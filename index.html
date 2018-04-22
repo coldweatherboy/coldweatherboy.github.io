@@ -5,6 +5,7 @@
 <style type="text/css">
 <!--
 body {
+display: table;
 background-image: url(images/background.jpg);
 background-repeat: no-repeat;
 background-position: center; 
@@ -12,9 +13,15 @@ background-position: center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size:cover;
+height: 100%;
+width: 100%;
 }
 span {
-  font-size: 6vmin !important;
+  font-size: 5.5vmin !important;
+}
+div {
+  display: table-cell;
+  vertical-align: middle;
 }
 .icon-background {
     color: rgba(0, 46, 102);
@@ -29,6 +36,7 @@ span {
 </head>
 
 <body>
+<div>
 <a href="https://www.facebook.com/coldweatherboy">
 <span class="fa-stack fa-2x">
   <i class="fa fa-circle fa-stack-2x icon-background"></i>
@@ -56,6 +64,7 @@ span {
   <i class="fa fa-instagram fa-stack-1x icon"></i>
 </span>
 </a>
+</div>
 </body>
 
 </html>
