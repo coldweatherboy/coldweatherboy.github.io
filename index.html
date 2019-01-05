@@ -5,23 +5,38 @@
 <style type="text/css">
 <!--
 body {
-display: table;
-background-image: url(images/CWBPic.jpg);
-background-repeat: no-repeat;
-background-position: center; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-height: 100%;
-width: 100%;
-text-align: center;
+  display: table;
+  background-image: url(images/CWBPic.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  text-align:center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#footer {
+  position: fixed;
+  bottom: 10vh;
+  height: 5.5vmin;
+  width: 100%;
+}
+#email {
+  margin-top: -2.5vh;
+  font-size: 3vh;
+}
+#email a {
+  color: #4e6182;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 span {
-  font-size: 5.5vmin !important;
-}
-div {
-  display: table-cell;
+  font-size: 5vh !important;
 }
 a {
   text-decoration: none;
@@ -39,31 +54,37 @@ a {
 </head>
 
 <body>
-<div>
-<a href="https://www.facebook.com/coldweatherboy">
-<span class="fa-stack fa-2x">
-  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-  <i class="fa fa-facebook fa-stack-1x icon"></i>
-</span>
-</a>
-<a href="https://coldweatherboy.bandcamp.com/releases">
-<span class="fa-stack fa-2x">
-  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-  <i class="fa fa-bandcamp fa-stack-1x icon"></i>
-</span>
-</a>
-<a href="https://open.spotify.com/artist/6LEr6gM4CQNb1XhSstublH">
-<span class="fa-stack fa-2x">
-  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-  <i class="fa fa-spotify fa-stack-1x icon"></i>
-</span>
-</a>
-<a href="https://www.instagram.com/coldweatherboy/">
-<span class="fa-stack fa-2x">
-  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-  <i class="fa fa-instagram fa-stack-1x icon"></i>
-</span>
-</a>
+<div id="footer">
+  <div id="social">
+    <a href="https://www.facebook.com/coldweatherboy">
+    <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+      <i class="fa fa-facebook fa-stack-1x icon"></i>
+    </span>
+    </a>
+    <a href="https://coldweatherboy.bandcamp.com/releases">
+    <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+      <i class="fa fa-bandcamp fa-stack-1x icon"></i>
+    </span>
+    </a>
+    <a href="https://open.spotify.com/artist/6LEr6gM4CQNb1XhSstublH">
+    <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+      <i class="fa fa-spotify fa-stack-1x icon"></i>
+    </span>
+    </a>
+    <a href="https://www.instagram.com/coldweatherboy/">
+    <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+      <i class="fa fa-instagram fa-stack-1x icon"></i>
+    </span>
+    </a>
+  </div>
+  <br/>
+  <div id="email">
+    <a href = "mailto: boycoldweather@gmail.com">boycoldweather@gmail.com</a>
+  </div>
 </div>
 </body>
 
